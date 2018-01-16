@@ -1,0 +1,8 @@
+
+modules
+numpy
+pip3 install numpy
+matplotlib
+sudo pip3 install matplotlib
+firebase
+sudo pip3 install python-firebase

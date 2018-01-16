@@ -20,7 +20,7 @@
 >import os 
 from curtsies import Input
 
-##### beping function
+##### beeping function
 >def beeping(freq, duration):
 	os.system("beep -f {} -l {}".format(str(freq), str(duration)))
 	
@@ -49,7 +49,7 @@ from curtsies import Input
 >def detectkey():
 	with Input(keynames='curses') as input_generator:
 		for e in input_generator:
-
+			pianos(repr(e))
 ##### main function
 >if __name__ == '__main__':
 	detrctkey()
